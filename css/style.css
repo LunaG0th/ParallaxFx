@@ -1,0 +1,92 @@
+
+/* div.bnt {
+  display: block;
+  background-color: red;
+  padding: 10px 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+div.bnt a {
+  color: #fff;
+  margin: 2% 2%;
+}
+
+div.bnt a:hover, div.bnt a:focus {
+  text-decoration: none;
+}
+
+nav#main-menu {
+  background-color: #cccbc7;
+  padding-top: 2%;
+  list-style: none;
+  line-height: 2em;
+  width: 10%;
+  height: 95vh;
+}
+
+nav#main-menu > ul > li {
+  list-style: none;
+} */
+
+section#banner {
+  display: block;
+  clear: both;
+  margin-bottom: 5em;
+}
+div.ccc {
+position: relative;
+top: 60vh;
+}
+
+.jumbotron {
+  background-color: transparent; 
+  color: rgb(255, 255, 255);
+  position: relative;
+  z-index: 100;
+}
+
+.jumbotron h1, .jumbotron p {
+  text-shadow: 4px 3px 0 rgb(0, 0, 0), 5px 2px 2px rgba(0, 0, 0, 0.40);
+}
+
+.bckg00 {
+  background: url(../img/backg.png) no-repeat center / cover;
+  min-height: 90vh;
+  position: absolute;
+  width: 100%;
+  transition: 1s;
+
+}
+
+.bckg {
+  background: url(../img/house.png) no-repeat center / cover;
+  min-height: 90vh;
+   z-index: 10;
+  position: absolute;
+  width: 100%;
+  transition: 1s;
+
+}
+.img01 {
+  /* border: 10px solid red; */
+  background: url(../img/ground.png) no-repeat center / cover;
+  opacity: 1;
+  z-index: 40;
+  min-height: 90vh;
+  position: absolute;
+  width: 100%;
+transition: 1s;
+}
+.img00 {
+  /* border: 10px solid red; */
+  background: url(../img/foregrn.png) no-repeat;
+  background-size: cover;
+  opacity: 1;
+  z-index: 50;
+  min-height: 90vh;
+  position: absolute;
+  width: 100%;
+transition: 1s;
+
+}
